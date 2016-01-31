@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+
+    tools:context="example.myappportifolio.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:theme="@style/newstyle"
+        >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="My Nanodegree Apps"
+    android:textAlignment="center"
+    android:textSize="20sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F08C35"
+        android:text="SPOTIFY STREAMER"
+        android:id="@+id/btnSpotify"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F08C35"
+        android:text="SCORES APP"
+        android:id="@+id/btnScoresApp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F08C35"
+        android:text="LIBRARY APP"
+        android:id="@+id/btnLibraryApp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F08C35"
+        android:text="BUILD IT BIGGER"
+        android:id="@+id/btnBuidBigger"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F08C35"
+        android:text="XYZ READER"
+        android:id="@+id/btnXYZ"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F08C35"
+        android:text="CAPSTONE: MY OWN APP"
+        android:id="@+id/btnCapstone"/>
+    </LinearLayout>
+</RelativeLayout>
